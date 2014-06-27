@@ -1,0 +1,307 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:pin
+LIBS:isp_avr
+LIBS:sop8l
+LIBS:MAX485
+LIBS:mpu6050
+LIBS:bmp085
+LIBS:hmc5883
+LIBS:ds1307
+LIBS:DAQ
+LIBS:PDM
+LIBS:mylib
+LIBS:ad77xx
+LIBS:kk-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 10 13
+Title "translator"
+Date "27 jun 2014"
+Rev "101"
+Comp ""
+Comment1 "3.3v to 5v"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L BSS138 Q1
+U 1 1 53A5C2F8
+P 2100 4300
+F 0 "Q1" H 2100 4151 40  0000 R CNN
+F 1 "BSS138" H 2100 4450 40  0000 R CNN
+F 2 "SOT-23" H 1970 4402 29  0000 C CNN
+F 3 "~" H 2100 4300 60  0000 C CNN
+	1    2100 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L R R13
+U 1 1 53A5C318
+P 1650 4000
+F 0 "R13" V 1730 4000 40  0000 C CNN
+F 1 "10k" V 1657 4001 40  0000 C CNN
+F 2 "~" V 1580 4000 30  0000 C CNN
+F 3 "~" H 1650 4000 30  0000 C CNN
+	1    1650 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R14
+U 1 1 53A5C325
+P 2550 4000
+F 0 "R14" V 2630 4000 40  0000 C CNN
+F 1 "10k" V 2557 4001 40  0000 C CNN
+F 2 "~" V 2480 4000 30  0000 C CNN
+F 3 "~" H 2550 4000 30  0000 C CNN
+	1    2550 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L BSS138 Q2
+U 1 1 53A5C3A7
+P 4650 4300
+F 0 "Q2" H 4650 4151 40  0000 R CNN
+F 1 "BSS138" H 4650 4450 40  0000 R CNN
+F 2 "SOT-23" H 4520 4402 29  0000 C CNN
+F 3 "~" H 4650 4300 60  0000 C CNN
+	1    4650 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L BSS138 Q3
+U 1 1 53A5C3B6
+P 7050 4300
+F 0 "Q3" H 7050 4151 40  0000 R CNN
+F 1 "BSS138" H 7050 4450 40  0000 R CNN
+F 2 "SOT-23" H 6920 4402 29  0000 C CNN
+F 3 "~" H 7050 4300 60  0000 C CNN
+	1    7050 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L BSS138 Q4
+U 1 1 53A5C3C5
+P 9350 4300
+F 0 "Q4" H 9350 4151 40  0000 R CNN
+F 1 "BSS138" H 9350 4450 40  0000 R CNN
+F 2 "SOT-23" H 9220 4402 29  0000 C CNN
+F 3 "~" H 9350 4300 60  0000 C CNN
+	1    9350 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L R R20
+U 1 1 53A5C3D2
+P 9750 3950
+F 0 "R20" V 9830 3950 40  0000 C CNN
+F 1 "10k" V 9757 3951 40  0000 C CNN
+F 2 "~" V 9680 3950 30  0000 C CNN
+F 3 "~" H 9750 3950 30  0000 C CNN
+	1    9750 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R19
+U 1 1 53A5C3D8
+P 8900 3950
+F 0 "R19" V 8980 3950 40  0000 C CNN
+F 1 "10k" V 8907 3951 40  0000 C CNN
+F 2 "~" V 8830 3950 30  0000 C CNN
+F 3 "~" H 8900 3950 30  0000 C CNN
+	1    8900 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R18
+U 1 1 53A5C3DE
+P 7500 3950
+F 0 "R18" V 7580 3950 40  0000 C CNN
+F 1 "10k" V 7507 3951 40  0000 C CNN
+F 2 "~" V 7430 3950 30  0000 C CNN
+F 3 "~" H 7500 3950 30  0000 C CNN
+	1    7500 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R17
+U 1 1 53A5C3E4
+P 6600 3950
+F 0 "R17" V 6680 3950 40  0000 C CNN
+F 1 "10k" V 6607 3951 40  0000 C CNN
+F 2 "~" V 6530 3950 30  0000 C CNN
+F 3 "~" H 6600 3950 30  0000 C CNN
+	1    6600 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R15
+U 1 1 53A5C3EA
+P 4200 3950
+F 0 "R15" V 4280 3950 40  0000 C CNN
+F 1 "10k" V 4207 3951 40  0000 C CNN
+F 2 "~" V 4130 3950 30  0000 C CNN
+F 3 "~" H 4200 3950 30  0000 C CNN
+	1    4200 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R16
+U 1 1 53A5C3F0
+P 5100 3950
+F 0 "R16" V 5180 3950 40  0000 C CNN
+F 1 "10k" V 5107 3951 40  0000 C CNN
+F 2 "~" V 5030 3950 30  0000 C CNN
+F 3 "~" H 5100 3950 30  0000 C CNN
+	1    5100 3950
+	1    0    0    -1  
+$EndComp
+Text HLabel 1400 4400 0    60   Input ~ 0
+LV1
+Text HLabel 3900 4400 0    60   Input ~ 0
+LV2
+Text HLabel 6350 4400 0    60   Input ~ 0
+LV3
+Text HLabel 8600 4400 0    60   Input ~ 0
+LV4
+Wire Wire Line
+	2300 4400 2900 4400
+Wire Wire Line
+	2550 4400 2550 4250
+Wire Wire Line
+	1650 3750 2050 3750
+Wire Wire Line
+	2050 3750 2050 4100
+Wire Wire Line
+	1650 3400 1650 3750
+Wire Wire Line
+	2550 3400 2550 3750
+Wire Wire Line
+	4200 3700 4600 3700
+Wire Wire Line
+	4600 3700 4600 4100
+Wire Wire Line
+	5100 4200 5100 4400
+Wire Wire Line
+	4850 4400 5350 4400
+Wire Wire Line
+	6600 3700 7000 3700
+Wire Wire Line
+	7000 3700 7000 4100
+Wire Wire Line
+	7500 4200 7500 4400
+Wire Wire Line
+	7250 4400 7800 4400
+Wire Wire Line
+	8900 3700 9300 3700
+Wire Wire Line
+	9300 3700 9300 4100
+Wire Wire Line
+	9750 4200 9750 4400
+Wire Wire Line
+	9550 4400 10100 4400
+Wire Wire Line
+	6600 3400 6600 3700
+Wire Wire Line
+	8900 3400 8900 3700
+Wire Wire Line
+	1400 4400 1900 4400
+Wire Wire Line
+	1650 4400 1650 4250
+Connection ~ 1650 4400
+Wire Wire Line
+	4200 4200 4200 4400
+Wire Wire Line
+	3900 4400 4450 4400
+Connection ~ 4200 4400
+Wire Wire Line
+	6350 4400 6850 4400
+Wire Wire Line
+	6600 4400 6600 4200
+Connection ~ 6600 4400
+Wire Wire Line
+	8600 4400 9150 4400
+Wire Wire Line
+	8900 4400 8900 4200
+Connection ~ 8900 4400
+Text HLabel 2900 4400 2    60   Input ~ 0
+HV1
+Text HLabel 5350 4400 2    60   Input ~ 0
+HV2
+Text HLabel 7800 4400 2    60   Input ~ 0
+HV3
+Text HLabel 10100 4400 2    60   Input ~ 0
+HV4
+Connection ~ 2550 4400
+Connection ~ 5100 4400
+Connection ~ 7500 4400
+Connection ~ 9750 4400
+Text HLabel 1650 3400 1    60   Input ~ 0
+LV
+Text HLabel 2550 3400 1    60   Input ~ 0
+HV
+Text HLabel 5100 3400 1    60   Input ~ 0
+HV
+Text HLabel 4200 3400 1    60   Input ~ 0
+LV
+Wire Wire Line
+	4200 3700 4200 3400
+Wire Wire Line
+	5100 3700 5100 3400
+Text HLabel 6600 3400 1    60   Input ~ 0
+LV
+Text HLabel 7500 3400 1    60   Input ~ 0
+HV
+Wire Wire Line
+	7500 3700 7500 3400
+Text HLabel 8900 3400 1    60   Input ~ 0
+LV
+Text HLabel 9750 3400 1    60   Input ~ 0
+HV
+Wire Wire Line
+	9750 3400 9750 3700
+Wire Notes Line
+	950  5100 10650 5100
+Wire Notes Line
+	10650 5100 10650 2500
+Wire Notes Line
+	10650 2500 900  2500
+Wire Notes Line
+	900  2500 900  5100
+Wire Notes Line
+	900  5100 1050 5100
+Text Notes 10000 4850 0    79   ~ 0
+notation:\n1>lv=3.3v\n2>hv=5v
+$EndSCHEMATC
